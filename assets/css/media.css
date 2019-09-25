@@ -1,0 +1,47 @@
+@media screen and (max-width: 1170px) {
+
+    .site-header h1 {
+        left: 100px;
+    }
+
+    .main-nav {
+        right:100px;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+
+    .site-header h1 {
+        left: 0px;
+    }
+
+    .main-nav {
+        right:0px;
+    }
+
+    .main-content {
+        height: 800px;
+        line-height: 40px;
+        width:860px;
+    }
+
+    .about-img {
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 880px) {
+
+    .main-content {
+        height: 850px;
+        line-height: 40px;
+        width:800px;
+    }
+
+    .about-img {
+        height: 200px;
+    }
+    
+}
