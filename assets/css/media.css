@@ -1,4 +1,4 @@
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1125px) {
 
     .site-header h1 {
         left: 100px;
@@ -13,35 +13,62 @@
 @media screen and (max-width: 980px) {
 
     .site-header h1 {
-        left: 0px;
+        left: 5%;
     }
 
     .main-nav {
-        right:0px;
+        right:5%;
     }
 
     .main-content {
-        height: 800px;
-        line-height: 40px;
-        width:860px;
+        line-height: auto;
+        margin-bottom: 80%;
+        margin-left: 5%;
+        width: 57%;
+        font-size: 12px;
+        height: 10%;
     }
 
-    .about-img {
-        height: 200px;
-    }
-    
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 768px) {
+
+    .site-header h1 {
+        left: 5%;
+    }
+
+    .main-nav {
+        right:5%;
+    }
 
     .main-content {
-        height: 850px;
-        line-height: 40px;
-        width:800px;
+        line-height: auto;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        width: 87%;
+        font-size: 12px;
+        height: 10%;
     }
 
-    .about-img {
-        height: 200px;
+}
+
+@media screen and (max-width: 640px) {
+
+    .site-header h1 {
+        left: 5%;
     }
-    
+
+    .main-nav {
+        right:5%;
+    }
+
+    .main-content {
+        line-height: auto;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        width: 87%;
+        font-size: 12px;
+        height: 10%;
+    }
+
 }
