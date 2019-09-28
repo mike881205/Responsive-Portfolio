@@ -64,7 +64,7 @@
   height: 600px;
   padding: 20px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 30px;
   font-size: 15px;
   line-height: 30px;
@@ -101,10 +101,10 @@
 .portfolio-content {
   background:#eee;
   width: 960px;
-  height: 750px;
+  height: 825px;
   padding: 20px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 30px;
   font-size: 15px;
   line-height: 30px;
@@ -114,16 +114,24 @@
 .portfolio-content p {
   position: absolute;
   width: 100%;
-  top: 80%;
+  top: 85%;
   text-align: center;
   background-color: #DA3643;
   color: white;
 }
 
+.portfolio-content img {
+  width: 390px;
+  height: 170px;
+  position: relative;
+}
+
 .portfolio-content a {
   position: relative;
+  left: 2%;
   margin: 3%;
-  margin-left: 115px;
+  margin-top: 1%;
+  margin-bottom: 5%;
   float: left;
 }
 

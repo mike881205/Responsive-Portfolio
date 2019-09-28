@@ -29,6 +29,16 @@
         height: 10%;
     }
 
+    .portfolio-content {
+        margin-bottom: 80%;
+        margin-left: 5%;
+        width: 60%;
+     }
+
+    .portfolio-content a {
+        right:1%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -46,7 +56,13 @@
         margin-left: 5%;
         margin-bottom: 10%;
         width: 87%;
-        font-size: 12px;
+        height: 10%;
+    }
+
+    .portfolio-content {
+        margin-left: 5%;
+        margin-bottom: 10%;
+        width: 87%;
         height: 10%;
     }
 
@@ -55,17 +71,28 @@
 @media screen and (max-width: 640px) {
 
     .site-header h1 {
-        left: 5%;
+        margin-right: 10%;
+        width: 100%;
+        text-align: center;
+        left:0%;
     }
 
     .main-nav {
-        right:5%;
+        width: 100%;
+        text-align: center;
     }
 
     .main-content {
         line-height: auto;
-        margin-left: 5%;
-        margin-bottom: 10%;
+        margin: 5% 6%;
+        width: 87%;
+        font-size: 12px;
+        height: 10%;
+    }
+
+    .portfolio-content {
+        line-height: auto;
+        margin: 5% 6%;
         width: 87%;
         font-size: 12px;
         height: 10%;
