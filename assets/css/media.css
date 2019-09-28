@@ -36,7 +36,12 @@
      }
 
     .portfolio-content a {
-        right:1%;
+        left: 0%;
+        margin-bottom: 10%;
+    }
+
+    .portfolio-content img {
+        width: 236px;
     }
 
 }
@@ -60,10 +65,20 @@
     }
 
     .portfolio-content {
+        margin-bottom: 80%;
         margin-left: 5%;
-        margin-bottom: 10%;
         width: 87%;
-        height: 10%;
+        height: 845px;
+     }
+
+    .portfolio-content a {
+        left: 0%;
+        margin-bottom: 10%;
+        margin: 5%;
+    }
+
+    .portfolio-content img {
+        width: 236px;
     }
 
 }
@@ -91,11 +106,20 @@
     }
 
     .portfolio-content {
-        line-height: auto;
-        margin: 5% 6%;
+        margin-bottom: 80%;
+        margin-left: 5%;
         width: 87%;
-        font-size: 12px;
-        height: 10%;
+        height: 1275px;
+     }
+
+    .portfolio-content a {
+        left: 0%;
+        margin-bottom: 10%;
+        margin: 5%;
+    }
+
+    .portfolio-content img {
+        width: 450px;
     }
 
 }
